@@ -21,6 +21,12 @@ html, body {
 	background:#f0f;
 }
 
+#faces .andrew {
+	background-image: url("images/andrew.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 300 0;
+}
 
 #faces .gabe {
 	background-image: url("images/gabe.jpg");
