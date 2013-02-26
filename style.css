@@ -5,3 +5,27 @@ html, body {
 	color:#fff;
 	font-family:sans-serif;
 }
+
+#faces {
+	background:#f00;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:450px;
+}
+#faces li {
+	float:left;
+	width: 150px;
+	height: 150px;
+	background:#333;
+	background:#f0f;
+}
+
+
+#faces .gabe {
+	background-image: url("images/gabe.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 300;
+}
+
