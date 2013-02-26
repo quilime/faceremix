@@ -69,8 +69,29 @@ html, body {
 	background-position: 0 300;	
 }
 
-faces .karina {
+#faces .jon {
+	background-image: url("images/jon.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 300;	
+}
+
+#faces .karina {
 	background-image: url("images/karina.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 300;
+}
+
+#faces .kevin {
+	background-image: url("images/kevin.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 300;
+}
+
+#faces .koby {
+	background-image: url("images/koby.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 0 300;
