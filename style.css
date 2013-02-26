@@ -29,3 +29,10 @@ html, body {
 	background-position: 0 300;
 }
 
+#faces .amy {
+	background-image: url("images/amy.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
