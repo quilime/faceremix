@@ -29,3 +29,9 @@ html, body {
 	background-position: 0 300;
 }
 
+#faces .bianca {
+	background-image: url("images/bianca.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 150;
+}
