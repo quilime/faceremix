@@ -29,3 +29,10 @@ html, body {
 	background-position: 0 300;
 }
 
+#faces .dwana {
+	background-image: url("images/dwana.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 300;
+}
+
