@@ -28,4 +28,9 @@ html, body {
 	background-attachment: fixed;
 	background-position: 0 300;
 }
-
+#faces .bradley {
+	background-image: url("images/bradley.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 300;
+}
