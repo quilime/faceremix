@@ -29,3 +29,9 @@ html, body {
 	background-position: 0 300;
 }
 
+#faces .my{
+    background-image: url("images/myphan.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:0 300;
+}
