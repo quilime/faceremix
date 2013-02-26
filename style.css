@@ -21,6 +21,25 @@ html, body {
 	background:#f0f;
 }
 
+#faces .amy {
+	background-image: url("images/amy.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#faces .andrew {
+	background-image: url("images/andrew.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 300 0;
+}
+
+#faces .bianca {
+	background-image: url("images/bianca.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 150;
+}
 
 #faces .gabe {
 	background-image: url("images/gabe.jpg");
@@ -29,7 +48,7 @@ html, body {
 	background-position: 0 300;
 }
 
-#faces .my{
+#faces .my {
     background-image: url("images/myphan.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
