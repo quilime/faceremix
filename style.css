@@ -70,6 +70,9 @@ html, body {
 	background-attachment: fixed;
 	background-position: 0 300;	
 }
+#faces .gabe a:hover {
+	
+} 
 
 #faces .jon {
 	background-image: url("images/jon.jpg");
@@ -100,7 +103,7 @@ html, body {
 }
 
 #faces .my {
-    background-image: url("images/myphan.jpg");
+    background-image: url("images/my.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position:0 300;
