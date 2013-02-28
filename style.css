@@ -19,8 +19,10 @@ html, body {
 }
 #faces li a {
 	display:block;
-	width:100%;
-	height:100%;
+	width:80%;
+/* 	background:rgba(255,255,255,0.5); */
+	height:80%;
+	margin:10%;
 }
 
 #faces .amy {
@@ -70,9 +72,6 @@ html, body {
 	background-attachment: fixed;
 	background-position: 0 300;	
 }
-#faces .gabe a:hover {
-	
-} 
 
 #faces .jon {
 	background-image: url("images/jon.jpg");
