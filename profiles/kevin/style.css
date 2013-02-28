@@ -1,0 +1,21 @@
+body{
+	background-color: #222222;
+	
+	text-align: center;
+}
+p{
+	color:white;
+	font-family:Arial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:white;
+	font-family:Arial;
+}
+#canvas{
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	/*width: 650px;*/
+}
