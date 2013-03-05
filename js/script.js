@@ -69,7 +69,9 @@ var generateFaces = function() {
 
 			// set all the faces 
 			$("#faces li a").css({
-				"background-image" : "url('images/" + v + ".jpg')"
+				"background-image" : "url('images/" + v + ".jpg')",
+				"background-attachment" : "fixed",
+				"background-repeat" : "none"				
 			});
 		});
 
