@@ -18,14 +18,39 @@ var members = [
 // what happens when the page is ready
 $(document).ready(function() {
 
-
 	$('#heading a').click(function() {
 		resetFaces();
 	});
 
+	// generate member list
+	generateMemberList();
+
 	// generate faces faces
 	generateFaces();
 });	
+
+var generateMemberList = function() {
+	var members_elem = $('#members');
+	// loop through each of the 'members' array
+	$(members).each(function(i, v) {
+		// create an element that we will fill with content for each face
+		var elem = $('<li><a href="#">'+v+'</a></li>');
+
+		// set all elements to have a unique background image based on the members array
+		// elem.css({
+		// 	"background-image" : "url('images/" + v + ".jpg')",			
+		// });
+
+		// find the <a> element in the elem, and assign a click event
+		elem.find('a').click(function(e){
+			loadProfile(v);
+		});
+
+
+		// append each element to the base element
+		members_elem.append(elem);
+	});
+};
 
 var resetFaces = function() {
 	// reset
@@ -60,28 +85,32 @@ var generateFaces = function() {
 
 		// find the <a> element in the elem, and assign a click event
 		elem.find('a').click(function(e){
-
-			// get the associated data json for each of the elements
-			$.getJSON( "data/" + v + ".json", function(data) {
-				// fill the profile with the appropriate content
-				$('#profile').html( 
-					'<h2>' + data.name + '</h2>' +
-					'<p><a href="' + data.pathbrite + '">pathbrite portfolio</a></p>'
-				 );
-			});
-
-			// set all the faces 
-			$("#faces li a").css({
-				"background-image" : "url('images/" + v + ".jpg')",
-				"background-attachment" : "fixed",
-				"background-repeat" : "none"				
-			});
+			loadProfile(v);
 		});
 
 		// append each element to the base element
 		base_elem.append(elem);
 	});
 };
+
+
+var loadProfile = function(person) {
+	// get the associated data json for each of the elements
+	$.getJSON( "data/" + person + ".json", function(data) {
+		// fill the profile with the appropriate content
+		$('#profile').html( 
+			'<h2>' + data.name + '</h2>' +
+			'<p><a href="' + data.pathbrite + '">pathbrite portfolio</a></p>'
+		 );
+	});
+
+	// set all the faces 
+	$("#faces li a").css({
+		"background-image" : "url('images/" + person + ".jpg')",
+		"background-attachment" : "fixed",
+		"background-repeat" : "none"				
+	});
+}
 
 
 

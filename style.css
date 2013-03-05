@@ -16,8 +16,19 @@ a {
 }
 
 #content {
-	margin-left:460px;
+	position:absolute;
+	left:480px;
 }
+
+
+#members, #members li {
+	margin:0;
+	padding:0;
+}
+#members li {
+	list-style-type:none;
+}
+
 
 #faces {
 	list-style-type:none;
