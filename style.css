@@ -6,16 +6,27 @@ html, body {
 	font-family:sans-serif;
 }
 
+#content {
+	margin-left:460px;
+}
+
+
 #faces {
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	width:450px;
+	position:absolute;
+	top:0px;
+	left:0;
 }
 #faces li {
 	float:left;
 	width: 150px;
 	height: 150px;
+	/*background-repeat: no-repeat;*/
+	background-attachment: fixed;	
+	background-position: 0 0;
 }
 #faces li a {
 	display:block;
@@ -25,83 +36,48 @@ html, body {
 
 #faces .amy {
 	background-image: url("images/amy.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 
 #faces .andrew {
 	background-image: url("images/andrew.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 300 0;
 }
 
 #faces .angelisa {
 	background-image: url("images/angelisa.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0 300;
 }
 
 #faces .bianca {
 	background-image: url("images/bianca.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0 150;
 }
 
 #faces .bradley {
 	background-image: url("images/bradley.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0 300;
 }
 
 #faces .dwana {
 	background-image: url("images/dwana.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0 300;
 }
 
 #faces .gabe {
 	background-image: url("images/gabe.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0 300;	
 }
 
 #faces .jon {
 	background-image: url("images/jon.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0 300;	
 }
 
 #faces .karina {
 	background-image: url("images/karina.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0 300;
 }
 
 #faces .kevin {
 	background-image: url("images/kevin.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0 300;
 }
 
 #faces .koby {
 	background-image: url("images/koby.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0 300;
 }
 
 #faces .my {
     background-image: url("images/my.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position:0 300;
 }

@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
 
-	$('#reset').click(function() {
+	$('#heading a').click(function() {
 		$("#faces li a").css({
 			"background" : "inherit"
 		});
