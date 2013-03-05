@@ -10,6 +10,11 @@ a {
 	color:#d08;
 }
 
+#shuffle {
+	position:absolute;
+	top:620px;
+}
+
 #content {
 	margin-left:460px;
 }

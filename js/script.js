@@ -1,5 +1,13 @@
 
+var students = [];
+
+	var s = [];
+
 $(document).ready(function() {
+
+
+
+
 
 	// reset
 	$('#heading a').click(function() {
@@ -13,12 +21,26 @@ $(document).ready(function() {
 	});
 
 
-	var face_lis = $("#faces li");
-	$.each(face_lis, function(i, v) {
+
+	// randomize
+	$('#shuffle').click(function() {
+		console.log('yeah');
+	});
+
+
+
+
+
+	// assign events
+	$.each($("#faces li"), function(i, v) {
+
+		s.push(v.className);
 		
 		var link = $(v).find('a');
 
 		$(link).click(function(e) {
+
+
 
 			var json_file = "data/" + v.className + ".json";
 
