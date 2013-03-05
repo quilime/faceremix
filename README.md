@@ -13,5 +13,3 @@ Navigate to the source directory in your terminal and type:
 Then, in your browser, navigate to:
 
     http://localhost:8000
-
-
