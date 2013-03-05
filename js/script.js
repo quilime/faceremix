@@ -18,17 +18,20 @@ var members = [
 // what happens when the page is ready
 $(document).ready(function() {
 
-	// reset
+
 	$('#heading a').click(function() {
-		// empty the profile element
-		$('#profile').empty();
-		// generate new faces
-		generateFaces();
+		resetFaces();
 	});
 
 	// generate faces faces
 	generateFaces();
 });	
+
+var resetFaces = function() {
+	// reset
+	$('#profile').empty();
+	generateFaces();
+};
 
 // generate faces function
 var generateFaces = function() {
