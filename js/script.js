@@ -108,7 +108,8 @@ var loadProfile = function(person) {
 	$("#faces li a").css({
 		"background-image" : "url('images/" + person + ".jpg')",
 		"background-attachment" : "fixed",
-		"background-repeat" : "none"				
+		"background-repeat" : "none"
+						
 	});
 }
 
