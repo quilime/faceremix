@@ -18,6 +18,7 @@ var members = [
 // what happens when the page is ready
 $(document).ready(function() {
 
+	// enable click function for headers
 	$('#heading a').click(function() {
 		resetFaces();
 	});
