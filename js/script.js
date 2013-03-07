@@ -101,6 +101,7 @@ var loadProfile = function(person) {
 		// fill the profile with the appropriate content
 		$('#profile').html( 
 			'<h2>' + data.name + '</h2>' +
+			'<p><a href="profiles/' + data.name + '">profile page</a></p>' +
 			'<p><a href="' + data.pathbrite + '">pathbrite portfolio</a></p>'
 		 );
 	});
