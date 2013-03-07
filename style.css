@@ -1,18 +1,19 @@
 /* stylesheet */
 
 html, body {
-	background:#333;
-	color:#fff;
+	background: #eee;
+	color: #000;
 	font-family:sans-serif;
 }
 a {
-	color:#d08;
+	color:#d00;
 }
+
 
 
 #content {
 	position:absolute;
-	left:480px;
+	left:490px;
 }
 #members, #members li {
 	margin:0;
@@ -30,15 +31,16 @@ a {
 	padding:0;
 	width:450px;
 	position:absolute;
-	top:0px;
-	left:0;
+	top:20px;
+	left:20px;
+	box-shadow: #888 5px 10px 10px;
 }
 	#faces li {
 		float:left;
 		width: 150px;
 		height: 150px;
 		background-attachment: fixed;	
-		background-position: 0 0;
+		background-position: 20px 20px;
 	}
 		#faces li a {
 			display:block;
